@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/xxawl1n/Desktop/2023 projects/dotnet/ECommerceAPI/ECommerceAPI.csproj": {}
+  },
+  "projects": {
+    "/home/xxawl1n/Desktop/2023 projects/dotnet/ECommerceAPI/ECommerceAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/xxawl1n/Desktop/2023 projects/dotnet/ECommerceAPI/ECommerceAPI.csproj",
+        "projectName": "ECommerceAPI",
+        "projectPath": "/home/xxawl1n/Desktop/2023 projects/dotnet/ECommerceAPI/ECommerceAPI.csproj",
+        "packagesPath": "/home/xxawl1n/.nuget/packages/",
+        "outputPath": "/home/xxawl1n/Desktop/2023 projects/dotnet/ECommerceAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/xxawl1n/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.15, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.FluentMap": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
